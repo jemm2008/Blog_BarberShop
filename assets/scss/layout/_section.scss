@@ -1,0 +1,157 @@
+.autor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_img {
+        border-radius: 50%;
+        align-items: flex-start;
+        width: auto;
+    }
+
+    &_name {
+        font-family: $primary-font;
+        font-weight: $black;
+        color: $serie-black;
+        font-style: italic;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    &_rrss {
+        font-family: $secondary-font;
+        font-size: $l;
+        color: $spanish-pink;
+        margin-top: 20px;
+        align-items: left;
+        vertical-align: left;
+        margin-bottom: -4px;
+    }
+
+    &_web {
+        font-family: $secondary-font;
+        font-size: $l;
+        color: $spanish-pink;
+        align-items: left;
+        vertical-align: left;
+    }
+
+    &_text {
+        align-items: flex-end;
+        color: $lightgray;
+        line-height: 30px;
+
+    }
+}
+
+.articulo {
+
+    &_titulo {
+        font-family: $primary-font;
+        font-weight: $regular;
+        font-size: $medium;
+        color: $lightgray;
+        margin: 40px 0 40px 8px;
+    }
+
+    &_parrafo {
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: justify;
+        color: $lightgray;
+        line-height: -20px;
+    }
+
+    &_destacado {
+        color: $fuzzy;
+    }
+}
+.autor {
+
+    @media only screen and (max-width: 600px) {
+        display: flex;
+        height: 400px;
+
+        &_img {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        &_name {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &_rrss {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &_web {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &_text {
+            display: none;
+        }
+    }
+}
+
+.autor {
+
+    @media only screen and (min-width: 600px) {
+        display: flex;
+        height: 400px;
+
+        &_img {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            margin: 0 auto;
+        }
+
+        &_name {
+            flex: 1;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+        }
+
+        &_rrss {
+            flex: 1;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+        }
+
+        &_web {
+            flex: 1;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main_container_titulo {
+        font-size: 30px;
+    }
+
+    .autor_img {
+        width: auto;
+    }
+}

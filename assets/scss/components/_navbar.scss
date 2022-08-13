@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $serie-black;
+}
+
+a.navbar-brand {
+    display: inline-block;
+    width: 30%;
+}
+
+.navbar_logo {
+    display: inline-block;
+    width: 20%;
+}
+
+.nav-item {
+
+        background-color: $serie-black;
+        color: $white;
+        margin-left: 20px;
+}
